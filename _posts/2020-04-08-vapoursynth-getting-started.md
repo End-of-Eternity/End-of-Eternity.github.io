@@ -11,7 +11,7 @@ Hello and welcome to EoE's Pro Vapoursynth Tutorial, where you'll learn to write
 
 So what first? Well, to begin with, we need some prerequisites. Easiest way to get everything is to follow the [Vapourysnth Installation Instructions](http://www.vapoursynth.com/doc/installation.html), but in short, all you really need is Python *(Vapoursynth currently uses [Python 3.8.x](https://www.python.org/downloads/release/python-385/))* and then just run the [Vapoursynth Installer](https://github.com/vapoursynth/vapoursynth/releases). Ta da! You've now installed Vapoursynth.
 
-## But wait, what is Vapoursynth?
+## But wait, what did I just install?
 
 > *VapourSynth is an application for video manipulation. Or a plugin. Or a library. It’s hard to tell because it has a core library written in C++ and a Python module to allow video scripts to be created. - [vapoursynth.com](http://www.vapoursynth.com/about/)*
 
@@ -54,7 +54,7 @@ Now we've got a *fingers crossed* working Vapoursynth script which we can previe
 
 Great! While we're here, lets familiarise ourselves with the preview window. Our output frames are displayed in the middle, and a toolbar at the bottom. The toolbar, from left to right, contains a play button, current frame number, timeline, zoom mode/ratio controls and an eyedropper tool, along with a few other buttons. A lot of these are self explanatory, and for those that aren't, it'd probably more fun for you to click on them and find out what they all do yourself. At the very bottom, is information about our output clip overall.
 
-Let's save our fabulous progress before your laptop battery runs out / there's a powercut. Close the preview window, then either `Ctrl+S` or click `File > Save script`. Vapoursynth scripts use the `.vpy` extension by convension, so call your script something memerable -`.vpy`. I've opted for `first_script.vpy`.
+Let's save our fabulous progress before your laptop battery runs out / there's a powercut. Close the preview window, then either `Ctrl+S` or click `File > Save script`. Vapoursynth scripts use the `.vpy` extension by convension, so call your script something memorable`.vpy`. I've opted for `first_script.vpy`.
 
 ## We did it!
 
