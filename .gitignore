@@ -6,3 +6,4 @@ vendor
 .lock
 *.lock
 .vscode
+.liquidrc
