@@ -15,7 +15,7 @@ So what first? Well, to begin with, we need some prerequisites. Easiest way to g
 
 > *VapourSynth is an application for video manipulation. Or a plugin. Or a library. It’s hard to tell because it has a core library written in C++ and a Python module to allow video scripts to be created. - [vapoursynth.com](http://www.vapoursynth.com/about/)*
 
-The way I like to think about Vapoursynth, is that it's a library for manipulating video, where the easiest way to access it's functions is via the Python module. Vapoursynth itself just provides the framework for this, and then plugins for it allow you to do the filtering. It's a powerful tool, inspired by [Avisynth](http://www.avisynth.org/), with a diverse amount of plugins written for it. I use Vapoursynth to perform operations like denoising, dehaloing, deinterlacing, etc. videos that I'm working on.
+The way I like to think about Vapoursynth, is that it's a library for manipulating video, where the easiest way to access it's functions is via the Python module. Vapoursynth itself just provides the framework for this, and then plugins for it allow you to do the filtering. It's a powerful tool, inspired by [Avisynth](http://www.avisynth.org/), with a diverse amount of plugins written for it. I use Vapoursynth to perform operations like denoising, dehaloing, deinterlacing, etc. on videos that I'm working on.
 
 ## Okay, so how do I use it?
 
