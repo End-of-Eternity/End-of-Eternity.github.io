@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Vapoursynth Tutorial: Getting Started"
-category: Vapoursynth Tutorial
 date: 2020-08-04 17:31:00 +0100
+permalink: /old/2020-04-08-vapoursynth-getting-started
 ---
 
-> Disclaimer: this guide will use Vapoursynth in place of the official name VapourSynth, because I like it better. 
+> Disclaimer: this guide will use Vapoursynth in place of the official name VapourSynth, because I like it better.
 
 Hello and welcome to EoE's Pro Vapoursynth Tutorial, where you'll learn to write <span style="font-weight: lighter;">~~*bad*~~</span> good code and turn your disgusting crappy DVD rips into beautiful, crappy DVD rips.
 
@@ -29,7 +29,7 @@ We've now installed Vapoursynth, a way to edit Python scripts for it, and a way 
 
 In the center, we've got the main text editor, which supports some (very basic) highlighting and completion, and then at the bottom, an output log. Check out `Edit -> Settings` for the few configuration options available. Lets get onto writing some code.
 
-To start with, lets go over what's already in the text box: 
+To start with, lets go over what's already in the text box:
 ```python
 import vapoursynth as vs
 core = vs.get_core()
