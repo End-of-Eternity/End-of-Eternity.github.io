@@ -15,7 +15,7 @@ However, there is a fairly significant difference between the two. `FrameEval` e
 
 Anyway, enough about what mistakes I made, let's talk about mistakes other people made instead, and how they can be avoided in future.
 
-# Writing a ~~Good~~ _Fast_ `FrameEval` Function
+## Writing a ~~Good~~ _Fast_ `FrameEval` Function
 
 The secret to a fast `FrameEval` is to do as little as possible within the function. What I mean by this, is taking as much of the logic as possible outside. Often this means you'll end up with a single `if` statement within the `eval` function, which just determines one of two clips to be returned. The more logic you put into the `FrameEval`, the more that has to be done every frame, and remember, Python is slow.
 
@@ -125,7 +125,7 @@ def auto_lbox(...) -> vs.VideoNode:
 
 Look how small our `eval` function is now! Pretty much everything was moved outside, leaving only the rounding of the frame prop, and the comparison to determine which clip to return. If I was really anal, I could rewrite `PlaneStats` to automatically round to the 4th decimal place, though I'm pretty sure Python can do that fast enough to not be an issue.
 
-# A Conclusion
+## A Conclusion
 
 The best thing about this is that there is _no_ difference in output, and it didn't require any clever maths optimisations or anything to be improved. All that really needs to be done to improve the majority of `eval` functions, is just a reordering of the logic, and some thought put into what actually _needs_ to be done within it. I hope that this encourages more people put off in the past by the apparent "abysmal performance" of `FrameEval` to try writing their own functions with a little more care. Anyone who's unsure about anything can always feel free to contact me (End of Eternity#6292) on Discord, best done through the [IEW Discord Server](https://discord.gg/qxTxVJGtst).
 
