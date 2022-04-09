@@ -1,0 +1,108 @@
+{
+    "autoDocstring.customTemplatePath": "C:\\PATH\\eoe_docsting_template.mustache",
+    "breadcrumbs.enabled": false,
+    "discord.detailsDebugging": "Fixing unwated \"features\" in {file_name}",
+    "discord.detailsEditing": "Breaking {file_name}",
+    "discord.lowerDetailsDebugging": "No its not a bug!",
+    "discord.lowerDetailsEditing": "Though if I wrote it, it wouldn't have worked beforehand anyway",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "100",
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        100
+    ],
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.vpy": "python",
+        "dev_requirements.txt": "pip-requirements"
+    },
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "launch": {
+        "configurations": [
+            {
+                "args": [
+                    "${file}"
+                ],
+                "console": "integratedTerminal",
+                "name": "Vapoursynth: Preview",
+                "program": "C:\\PATH\\vapoursynth-preview\\vspreview.py",
+                "request": "launch",
+                "type": "python"
+            },
+            {
+                "console": "integratedTerminal",
+                "cwd": "${fileDirname}",
+                "name": "Python: Current File",
+                "program": "${file}",
+                "request": "launch",
+                "type": "python",
+                "justMyCode": false
+            },
+            {
+                "args": [
+                    "${file}"
+                ],
+                "console": "integratedTerminal",
+                "cwd": "${fileDirname}",
+                "name": "Vapoursynth: Dependancies",
+                "program": "C:\\PATH\\deps.py",
+                "request": "launch",
+                "type": "python",
+            }
+        ],
+        "version": "0.2.0"
+    },
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100",
+        "--experimental-string-processing"
+    ],
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
+    "terminal.integrated.automationShell.linux": "",
+    "terminal.integrated.fontFamily": "Fira Code Retina",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdb": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.explorerKind": "external",
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
+    "editor.formatOnSave": true,
+    "python.experiments.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "mesonbuild.configureOnOpen": true,
+    "rust-client.engine": "rust-analyzer",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "cmake.configureOnOpen": true,
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
+    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+    "powershell.codeFormatting.whitespaceBetweenParameters": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "telemetry.telemetryLevel": "off",
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 2,
+}
